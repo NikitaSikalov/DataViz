@@ -4,6 +4,7 @@
 
 1. [Tree visualization](##Tree_visualization)
 2. [DAG visualization](##DAG_visualization)
+
 ## Tree_visualization
 
 You can find out code and examples in colab notebook.

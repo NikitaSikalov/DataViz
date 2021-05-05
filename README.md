@@ -5,6 +5,7 @@
 1. [Tree visualization](##Tree-visualization)
 2. [DAG visualization](##DAG-visualization)
 3. [Labels placement problem](##Labels-placement-problem)
+4. [t-SNE](##t-SNE)
 
 ## Tree visualization
 
@@ -14,7 +15,12 @@ You can find out code and examples in colab notebook.
 
 We use `Layered-Tree-Draw` algorithm to visualize our trees. You can see its pseudocode on the sreenshot below.
 
+<details>
+  <summary>Algorithm</summary>
+
 ![Algorighm](./assets/layered-tree-draw.png)
+
+</details>
 
 This screenshot was taken from this [doc](https://www.csd.uoc.gr/~hy583/papers/ch8.pdf) where you can find some more interesting algorithms of tree visualization.
 
@@ -53,3 +59,16 @@ filtered list of rectangles which we can draw.
 * [PySAT](https://pysathq.github.io/index.html) python SAT solver lib
 * [2-SAT](https://en.wikipedia.org/wiki/2-satisfiability) problem solution
 * [Boolean satisfiability problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem)
+
+## t-SNE
+
+You can find out code and examples in colab notebook.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NikitaSikalov/DataViz/blob/main/TSNE.ipynb)
+
+### Materials and links
+
+* [Paper](https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf) t-SNE implementation
+* [How to use t-SNE effectively](https://distill.pub/2016/misread-tsne/)
+* [MNIST dataset](http://yann.lecun.com/exdb/mnist/)
+* [Binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
